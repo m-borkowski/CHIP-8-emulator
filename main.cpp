@@ -1,4 +1,4 @@
-#include "chip8.h"
+#include "chip8.h" 
 #include <stdio.h>
 
 emulator::chip8 Chip8;
