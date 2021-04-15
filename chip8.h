@@ -39,7 +39,7 @@ namespace emulator
         unsigned char V[16]; // 8-bit CPU register
         unsigned short I; //addres register
         unsigned short PC; // program counter
-        unsigned short stack;
+        unsigned short stack[16];
         unsigned short sp; //stack pointer
         unsigned char key[16];
         unsigned char delay_timer;
